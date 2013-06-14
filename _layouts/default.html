@@ -1,0 +1,141 @@
+
+<!DOCTYPE html>
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+
+    <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <title>{{ page.title }}</title>
+       
+      <!-- Included CSS Files -->
+      <link href='http://fonts.googleapis.com/css?family=Ranchers' rel='stylesheet' type='text/css'>
+      <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+
+ 
+      <link rel="stylesheet" href="/stylesheets/app.css" />
+
+      <link href="/resources/webfonts/ss-social.css" rel="stylesheet" />
+      <link href="/stylesheets/jquery.coderwall.css" media="all" rel="stylesheet" type="text/css">
+
+      <script src="/javascripts/vendor/custom.modernizr.js"></script>
+
+      <!-- syntax highlighting CSS -->
+      <!--<link rel="stylesheet" href="/css/syntax.css">-->
+
+      <!-- Custom CSS -->
+      <!--<link rel="stylesheet" href="/css/main.css">-->
+
+      <script type="text/javascript">
+
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-30516711-1']);
+        _gaq.push(['_trackPageview']);
+
+        (function() {
+          var  ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+
+      </script>
+
+    </head>
+    <body>
+      <div class="header">
+        <header>
+          <nav class="top-bar">
+
+
+            <ul class="title-area">
+              <li class="name">
+                <h1><a href="/" class="logo">lz:co</a></h1>
+              </li>
+              <li class="toggle-topbar menu-icon"><a href="#">
+                <span>Menu</span></a>
+              </li>
+            </ul>
+
+
+            <section class="top-bar-section">
+              <ul class="left">
+                <li><a href="http://github.com/lzcabrera">
+                  <i class="ss-icon ss-social-circle">githuboctocat</i> github</a></li>
+                <li><a href="http://twitter.com/lauracabrera" >
+                  <i class="ss-icon ss-social-circle">twitter</i> twitter</a></li>
+                <li><a href="http://ca.linkedin.com/in/lauracabrera" >
+                  <i class="ss-icon ss-social-circle">linkedin</i> linkedin</a> </li>
+                <li><a href="http://feeds.feedburner.com/laura-cabrera/blog">
+                  <i class="ss-icon ss-social-circle">rss</i> rss</a></li>
+              </ul>
+            </section>
+          </nav>
+        </header>
+      </div>
+
+        
+            {{ content }}
+          
+      <div class="footer">
+        <footer>
+          <p class="copyright">laura cabrera &copy; {{ site.time | date: '%Y' }} </p>
+        </footer>
+      </div>
+
+
+      <!--
+      <script>
+      document.write('<script src=' +
+      ('__proto__' in {} ? 'javascripts/vendor/zepto' : 'javascripts/vendor/jquery') +
+      '.js><\/script>')
+      </script>
+      -->
+
+      <script src="/javascripts/vendor/jquery.js"></script>
+      
+      <script src="/javascripts/foundation/foundation.js"></script>
+      
+      <script src="/javascripts/foundation/foundation.alerts.js"></script>
+      
+      <script src="/javascripts/foundation/foundation.clearing.js"></script>
+      
+      <script src="/javascripts/foundation/foundation.cookie.js"></script>
+      
+      <script src="/javascripts/foundation/foundation.dropdown.js"></script>
+      
+      <script src="/javascripts/foundation/foundation.forms.js"></script>
+      
+      <script src="/javascripts/foundation/foundation.interchange.js"></script>
+      
+      <script src="/javascripts/foundation/foundation.joyride.js"></script>
+      
+      <script src="/javascripts/foundation/foundation.magellan.js"></script>
+      
+      <script src="/javascripts/foundation/foundation.orbit.js"></script>
+      
+      <script src="/javascripts/foundation/foundation.placeholder.js"></script>
+      
+      <script src="/javascripts/foundation/foundation.reveal.js"></script>
+      
+      <script src="/javascripts/foundation/foundation.section.js"></script>
+      
+      <script src="/javascripts/foundation/foundation.tooltips.js"></script>
+      
+      <script src="/javascripts/foundation/foundation.topbar.js"></script>
+
+      <!-- Script for GitHub Badge Widget -->
+      <script src="/javascripts/jquery.github_badge.js"></script>
+
+      <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+      <!-- Application Javascript, safe to override -->
+      <script src="/javascripts/app.js"></script>
+      
+      
+      <script>
+        $(document).foundation();
+      </script>
+
+    </body>
+</html>

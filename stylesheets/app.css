@@ -6660,3 +6660,168 @@ a.th {
 .f-dropdown.large {
   max-width: 800px;
 }
+
+/* line 2, ../sass/_lzco.scss */
+body {
+  font-size: 0.85em;
+}
+
+/* line 5, ../sass/_lzco.scss */
+h1, .logo {
+  font-family: 'Ranchers', cursive;
+}
+
+/* line 8, ../sass/_lzco.scss */
+.logo {
+  font-size-adjust: 0.9;
+}
+
+/* line 12, ../sass/_lzco.scss */
+h2 {
+  font-family: 'Ranchers', cursive;
+}
+
+/* line 17, ../sass/_lzco.scss */
+.related .posts a {
+  display: block;
+  font-weight: bold;
+}
+
+/* line 18, ../sass/_lzco.scss */
+.related .posts span {
+  color: #999999;
+}
+
+/* line 19, ../sass/_lzco.scss */
+.related ul {
+  list-style-type: none;
+}
+
+/* line 20, ../sass/_lzco.scss */
+.related ul li {
+  margin-bottom: 10px;
+}
+
+/* line 24, ../sass/_lzco.scss */
+.posts-list {
+  list-style-type: none;
+}
+/* line 26, ../sass/_lzco.scss */
+.posts-list li {
+  margin: 5px 0;
+}
+
+/* line 29, ../sass/_lzco.scss */
+.copyright {
+  margin-top: 20px;
+  text-align: center;
+  color: #999999;
+  font-size-adjust: 0.5;
+}
+
+/* line 36, ../sass/_lzco.scss */
+#github-badge {
+  border: 0;
+  height: 142px;
+  width: 100%;
+  overflow: hidden;
+  margin-top: 20px;
+}
+
+/* line 40, ../sass/_lzco.scss */
+#github_user_badge {
+  margin-bottom: 15px;
+}
+
+/* line 45, ../sass/_lzco.scss */
+.post .step {
+  padding: 20px 20px 20px 20px;
+  margin-bottom: 15px;
+  border-radius: 4px;
+}
+/* line 50, ../sass/_lzco.scss */
+.post .step p > span {
+  font-weight: bold;
+  color: #777;
+  font-size: ms(2);
+  margin-right: 10px;
+}
+
+/* line 57, ../sass/_lzco.scss */
+.post .step:nth-child(odd) {
+  background: #EEF1F2;
+}
+
+/* line 60, ../sass/_lzco.scss */
+.post .step:nth-child(even) {
+  background: #EBF4F6;
+}
+
+/* line 64, ../sass/_lzco.scss */
+.post p:first-child {
+  font-weight: bold;
+}
+
+/* line 67, ../sass/_lzco.scss */
+.post .step ul {
+  list-style-position: outside;
+  margin-left: 20px;
+}
+
+/* line 73, ../sass/_lzco.scss */
+#daily_mile_widget {
+  margin-top: 15px;
+}
+
+/* line 76, ../sass/_lzco.scss */
+#twitter-tweet-lc {
+  margin-bottom: 15px;
+}
+
+/* line 79, ../sass/_lzco.scss */
+#twitter-widget-0 {
+  width: 100% !important;
+}
+
+/*****************************************************************************/
+/*
+/* Posts
+/*
+/*****************************************************************************/
+/* standard */
+/* line 91, ../sass/_lzco.scss */
+#post pre {
+  border: 1px solid #ddd;
+  background-color: #eef;
+  padding: 0 .4em;
+}
+
+/* line 97, ../sass/_lzco.scss */
+#post ul, #post ol {
+  margin-left: 1.35em;
+}
+
+/* line 101, ../sass/_lzco.scss */
+#post code {
+  border: 1px solid #ddd;
+  background-color: #eef;
+  padding: 0 .2em;
+}
+
+/* line 107, ../sass/_lzco.scss */
+#post pre code {
+  border: none;
+}
+
+/* terminal */
+/* line 112, ../sass/_lzco.scss */
+#post pre.terminal {
+  border: 1px solid #000;
+  background-color: #333;
+  color: #FFF;
+}
+
+/* line 118, ../sass/_lzco.scss */
+#post pre.terminal code {
+  background-color: #333;
+}
