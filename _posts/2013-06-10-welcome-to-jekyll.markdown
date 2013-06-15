@@ -1,14 +1,19 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "Jekyll and Foundation Update"
 date:   2013-06-10 11:49:57
 categories: jekyll update
 ---
 
-You'll find this post in your `_posts` directory - edit this post and re-build (or run with the `-w` switch) to see your changes!
-To add new posts, simply add a file in the `_posts` directory that follows the convention: YYYY-MM-DD-name-of-post.ext.
+I am doing a little bit of cleaning up, organizing and merging online properties to try to have everything all under one domain. It is all part of the branding strategy. 
 
-Jekyll also offers powerful support for code snippets:
+This blog now runs on [Jekyll 1.0.3](http://jekyllrb.com). It is still hosted on Github, and the front-end is now using Zurb Foundation 4.
+
+I know it still looks the same, but I figured I should update it because I hope to make some time in the future to maybe make use some of the cool features built-in into Foundation.
+
+While working on the upgrade, I was debating between Middleman and Jekyll, but decided to go with Jekyll because Middleman doesn't work with Ruby 2.0 yet.
+
+I went with Jekyll because it runs on Ruby 2.0 and  also because it offers powerful support for code snippets:
 
 {% highlight ruby %}
 def print_hi(name)
