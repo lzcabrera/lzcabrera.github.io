@@ -11,6 +11,7 @@ I had been hearing a lot about the d3 framework via twitter and ex-colleagues, s
 These are some of the tutorials I started with:
 
 This is the static visualization I wanted to make dynamic:
+<a data-pin-do="embedPin" href="http://pinterest.com/pin/90212798758233207/"></a>
 
 Urban farming is one of my favourite hobbies and I use pinterest a lot to get ideas on how to make the most of my rooftop patio. I found this static visualization very helpful, but difficult to read, when I was doing research on what seeds to plant this spring.
 
@@ -20,3 +21,4 @@ Here is my dynamic version of the data represented on the poster:
 There is still a lot of improvements that can be made to the d3 version to enhance the user experience. 
 
 I'll keep you posted next time I get some spare time to work on this side project.
+<script type="text/javascript" src="//assets.pinterest.com/js/pinit.js"></script>
