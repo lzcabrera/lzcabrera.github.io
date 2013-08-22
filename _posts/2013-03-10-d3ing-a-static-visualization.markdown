@@ -15,7 +15,7 @@ This is the static visualization I wanted to make dynamic:
 Urban farming is one of my favourite hobbies and I use pinterest a lot to get ideas on how to make the most of my rooftop patio. I found this static visualization very helpful, but difficult to read, when I was doing research on what seeds to plant this spring.
 
 Here is my dynamic version of the data represented on the poster:
-http://urbanfarming.laura-cabrera.com/
+[http://urbanfarming.laura-cabrera.com/](http://urbanfarming.laura-cabrera.com/)
 
 There is still a lot of improvements that can be made to the d3 version to enhance the user experience. 
 
